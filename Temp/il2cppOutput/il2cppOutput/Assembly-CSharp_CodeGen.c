@@ -1,0 +1,123 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// 0x00000001 System.Void AddScore::OnTriggerEnter2D(UnityEngine.Collider2D)
+extern void AddScore_OnTriggerEnter2D_m98DDC57F1255331BD0BB7EEFE19B299B1B9F585C ();
+// 0x00000002 System.Void AddScore::.ctor()
+extern void AddScore__ctor_m8EA07F6B9F21BA7906C5D231660769F2FAE2964B ();
+// 0x00000003 System.Void FlyBird::Start()
+extern void FlyBird_Start_mFBA633400521827AB30103D2F156F0A657D29AB1 ();
+// 0x00000004 System.Void FlyBird::Update()
+extern void FlyBird_Update_m4525A9054DBC9A8651CD9BE01838831AD493E4A1 ();
+// 0x00000005 System.Void FlyBird::OnCollisionEnter2D(UnityEngine.Collision2D)
+extern void FlyBird_OnCollisionEnter2D_m33BA4F419A256F74612859A4632A7EF17CF2D3F9 ();
+// 0x00000006 System.Void FlyBird::.ctor()
+extern void FlyBird__ctor_m47A71DD5D9B91D12E6973C5933426087028E4910 ();
+// 0x00000007 System.Void GameManager::Start()
+extern void GameManager_Start_mD77CCDBF1DA8EC5C3AE7ED955DE4E7F54B79C88E ();
+// 0x00000008 System.Void GameManager::GameOver()
+extern void GameManager_GameOver_m658E745BE197CC36CFAE422F8037F41A1B7FFFD3 ();
+// 0x00000009 System.Void GameManager::Replay()
+extern void GameManager_Replay_m5708C24AAB8FEEEFFE33E8D52EF9381088270486 ();
+// 0x0000000A System.Void GameManager::.ctor()
+extern void GameManager__ctor_mF7F1107D38DE91EB8A57C1C3BB1A932C50CD9693 ();
+// 0x0000000B System.Void Move::Start()
+extern void Move_Start_mAD8F588C41BC259F2A63F7FC45E2663A783B9393 ();
+// 0x0000000C System.Void Move::Update()
+extern void Move_Update_mB3F77296A3D662F72110C9C8470EB18831BBE9C0 ();
+// 0x0000000D System.Void Move::.ctor()
+extern void Move__ctor_mA29953F1D1A0B66A8300BCD7E59ABF35665B327E ();
+// 0x0000000E System.Void PipeSpawn::Start()
+extern void PipeSpawn_Start_m01407229B2B155FC1C68CAF5662D55E37809768C ();
+// 0x0000000F System.Void PipeSpawn::Update()
+extern void PipeSpawn_Update_m0810288A45A8C6CA79E5431AC756C23BEE41E168 ();
+// 0x00000010 System.Void PipeSpawn::.ctor()
+extern void PipeSpawn__ctor_m4E749F3ECD4AAE7CFA370B1DAEE27B3C691C743D ();
+// 0x00000011 System.Void Score::Start()
+extern void Score_Start_m1821AC2C6C0505E9EEFA5DD52733BE5C3037AD9E ();
+// 0x00000012 System.Void Score::Update()
+extern void Score_Update_m034295E32383253E391ECFA2599FD3720345D1DB ();
+// 0x00000013 System.Void Score::.ctor()
+extern void Score__ctor_mE2F9D741565800994F2DFAF0C4036F5E7ADA4D1F ();
+// 0x00000014 System.Void Score::.cctor()
+extern void Score__cctor_m0E60F88B5FE176BC9E1031CD99E6FC8A7F8B1D0B ();
+static Il2CppMethodPointer s_methodPointers[20] = 
+{
+	AddScore_OnTriggerEnter2D_m98DDC57F1255331BD0BB7EEFE19B299B1B9F585C,
+	AddScore__ctor_m8EA07F6B9F21BA7906C5D231660769F2FAE2964B,
+	FlyBird_Start_mFBA633400521827AB30103D2F156F0A657D29AB1,
+	FlyBird_Update_m4525A9054DBC9A8651CD9BE01838831AD493E4A1,
+	FlyBird_OnCollisionEnter2D_m33BA4F419A256F74612859A4632A7EF17CF2D3F9,
+	FlyBird__ctor_m47A71DD5D9B91D12E6973C5933426087028E4910,
+	GameManager_Start_mD77CCDBF1DA8EC5C3AE7ED955DE4E7F54B79C88E,
+	GameManager_GameOver_m658E745BE197CC36CFAE422F8037F41A1B7FFFD3,
+	GameManager_Replay_m5708C24AAB8FEEEFFE33E8D52EF9381088270486,
+	GameManager__ctor_mF7F1107D38DE91EB8A57C1C3BB1A932C50CD9693,
+	Move_Start_mAD8F588C41BC259F2A63F7FC45E2663A783B9393,
+	Move_Update_mB3F77296A3D662F72110C9C8470EB18831BBE9C0,
+	Move__ctor_mA29953F1D1A0B66A8300BCD7E59ABF35665B327E,
+	PipeSpawn_Start_m01407229B2B155FC1C68CAF5662D55E37809768C,
+	PipeSpawn_Update_m0810288A45A8C6CA79E5431AC756C23BEE41E168,
+	PipeSpawn__ctor_m4E749F3ECD4AAE7CFA370B1DAEE27B3C691C743D,
+	Score_Start_m1821AC2C6C0505E9EEFA5DD52733BE5C3037AD9E,
+	Score_Update_m034295E32383253E391ECFA2599FD3720345D1DB,
+	Score__ctor_mE2F9D741565800994F2DFAF0C4036F5E7ADA4D1F,
+	Score__cctor_m0E60F88B5FE176BC9E1031CD99E6FC8A7F8B1D0B,
+};
+static const int32_t s_InvokerIndices[20] = 
+{
+	26,
+	23,
+	23,
+	23,
+	26,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	3,
+};
+extern const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	20,
+	s_methodPointers,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+};
