@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fc3f1d9ef6d7bc4490cdf593c7b6d60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxTime: 1.6
+  maxTime: 1.8
   pipe: {fileID: 2002438201866603129, guid: ec315ebe6ac8dd2429f699b520a95994, type: 3}
   height: 0.5
 --- !u!4 &209200838
@@ -890,7 +890,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0.6
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -909,7 +909,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 436574557}
-  velocity: 1.5
+  velocity: 1.4
 --- !u!70 &903959575
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
